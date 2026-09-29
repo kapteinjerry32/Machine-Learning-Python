@@ -8,3 +8,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
 %matplotlib inline
+
+housing_dataset = pd.read_csv("BostonHousing.csv")
+housing_dataset.head()
